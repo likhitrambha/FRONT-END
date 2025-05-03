@@ -1,0 +1,210 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: #222121;
+}
+#nav{
+    width: 100%;
+    min-height: 80px;
+    background-color: #145471;
+}
+#nav .navleft{
+    width: 25%;
+    min-height: 80px;
+    background-color: #000;
+    float: left;
+}
+#nav .navleft h1{
+    color: #fff;
+    padding-left: none;
+    padding: 20px;
+}
+#nav .searchnav{
+    width: 35%;
+    min-height: 80px;
+    background-color: #000;
+    float: left;
+}
+#nav .searchnav input{
+    width: 90%;
+    background-color: #000;
+    height: 50px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: large;
+    color: #fff;
+    border:solid #fff;
+    border-width: 1px;
+    border-radius: 10px;
+}
+#nav .navright{
+    width: 40%;
+    min-height: 80px;
+    background-color:#000;
+    float: right;
+}
+#nav .navright ul li {
+    list-style: none;
+    float: left;
+    padding: 5px;
+    padding-top: 30px;
+    text-align: right;
+}
+#nav .navright ul li a {
+   text-decoration: none;
+   color: #fff;
+   padding: 30px;
+   padding-right: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 20px;
+}
+#nav .navright ul li a:hover{
+    text-decoration: underline;
+    color: rgb(255, 137, 58);
+    padding: 30px;
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+ }
+ .Spl{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow: #000;
+ }
+ .imgslide{
+    animation: movertl 500s linear infinite;
+    overflow: hidden;
+ }
+ .old{
+    font-size: 15px;
+ }
+ .offer{
+    color: red;
+    overflow: hidden;
+    font-size: 30px;
+    padding-right: 250px;
+    animation: blinker 2s linear infinite;
+    animation: slide 8s linear infinite;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.items{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.items .chicken{
+    width: 20%;
+    min-height: 100px;
+    margin: auto;
+}
+.items .chicken a img{
+    width: 100%;
+    border-radius: 10px;
+}
+.items .chicken:hover{
+    width: 21%;
+    border-radius: 10px;
+}
+.items .chicken h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#222121;
+    color: #fff;
+    font-size: 30px;
+}
+.items .mutton{
+    width: 20%;
+    min-height: 10px;
+    margin: auto;
+}
+.items .mutton a img{
+    width: 100%;
+    border-radius: 10px;
+}
+.items .mutton:hover{
+    width: 21%;
+    border-radius: 10px;
+}
+.items .mutton h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#222121;
+    color: #fff;
+    font-size: 30px;
+}
+.items .fish{
+    width: 20%;
+    min-height: 10px;
+    margin: auto;
+}
+.items .fish a img{
+    width: 100%;
+    border-radius: 10px;
+}
+.items .fish:hover{
+    width: 21%;
+    border-radius: 10px;
+}
+.items .fish h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#222121;
+    color: #fff;
+    font-size: 30px;   
+}
+.items .prawn{
+    width: 20%;
+    min-height: 10px;
+    margin: auto;
+}
+.items .prawn a img{
+    width: 100%;
+    border-radius: 10px;
+}
+.items .prawn:hover{
+    width: 21%;
+    border-radius: 10px;
+}
+.items .prawn h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#222121; 
+    color: #fff;
+    font-size: 30px;  
+}
+.icons{
+    background-color: #000;
+    height: 40px;
+    padding: 20px 10px;
+}
+.icons i{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: auto;
+}
+.icons a :hover{
+    color: #fff;
+    font-size: 35px;
+}
+.search{
+    color: #fff;
+    padding-left: 10px;
+    font-size: 25px;
+}
