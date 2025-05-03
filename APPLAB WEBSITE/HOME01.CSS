@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+header .nav{
+    padding-top: 70px;
+    text-align: justify;
+}
+header .nav h1{
+    padding-left: 200px;
+    display: inline;
+    padding-right: 500px;
+    font-size: 30px;
+}
+header .nav a{
+    text-decoration: 0;
+    padding-left: 10px;
+    margin: 5px;
+    color: #2b2b2b;
+    font-size: 15px;
+}
+header .nav .btn01{
+    background-color: blue;
+    padding: 12px 20px 12px 20px;
+    color: #fff;
+    border-radius: 50px;
+    margin-left: 20px;
+    font-size: 15px;
+    border: 0;
+}
+main .banner{
+    margin-top: 20px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/banner-bg.png);
+    background-position: center;
+}
+main .banner .banner01{
+    width: 50%;
+    height: 800px;
+    float: left;
+}
+main .banner .banner01 .ban01{
+    padding: 200px 0px 0px 200px;
+}
+main .banner .banner01 .ban01 i {
+    font-size: 15px;
+    padding: 5px 8px 5px 8px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 25px 25px 18px 18px;
+}
+main .banner .banner01 .ban01 .c01{
+    font-size: 15px;
+    background-color: rgb(173, 173, 173);
+    padding: 5px 30px 5px 5px;
+    border-radius: 25px 25px 15px 15px;
+    color: #000;
+}
+main .banner .banner01 .ban01 h1{
+    font-size: 65px;
+    color: #10194b;
+}
+main .banner .banner02 img{
+    height: 750px;
+    padding: 10px 0px 0px 120px;
+}
+main .banner .banner02{
+    width: 50%;
+    height: 700px;
+    float: right;
+}
+main .banner .banner01 .ban01 p{
+    font-size: 20px;
+    color: #3a3939;
+}
+main .banner .banner01 .ban01 .btn01{
+    background-color: blue;
+    padding: 12px 20px 12px 20px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 15px;
+    border: 0;
+}
+main .banner .banner01 .ban01 a{
+    text-decoration: none;
+    color: blue;
+    padding-left: 20px;
+}
+main .trust{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 18px;
+}
+main .tustlogos img{
+    margin-top: 10px;
+    width: 200px;
+    height: 120px;
+}
+main .fut{
+    margin-top: 100px;
+    height: 800px;
+}
+main .futleft{
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+main .futleft img{
+    height: 800px;
+    padding:0px 0px 0px 80px;
+}
+main .futright{
+    width: 50%;
+    height: 700px;
+    float: right;
+}
+main .futright h2{
+    font-size: 30px;
+    color: #10194b;
+}
+main .futright p{
+    margin-top: 5px;
+    color: gray;
+    font-size: 20px;
+}
+main .futright .fast{
+    margin-top: 60px;
+    height: 150px;
+}
+main .futright .fast .fastlogo{
+    width: 15%;
+    float: left;
+}
+main .futright .fast .fastcont{
+    width: 83%;
+    float: right;
+    margin-top: 10px;
+}
+main .futright .fast .fastcont h3{
+    font-size: 20px;
+    color: #f56270;
+}
+main .futright .fast .fastcont p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 150%;
+}
+main .futright .type{
+    height: 150px;
+}
+main .futright .type .typelogo{
+    width: 15%;
+    float: left;
+}
+main .futright .type .typecont{
+    width: 83%;
+    float: right;
+    margin-top: 10px;   
+}
+main .futright .type .typecont h3{
+    font-size: 20px;
+    color: #3a72fc;
+}
+main .futright .type .typecont p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 150%;
+}
+main .futright .edit{
+    height: 150px;
+}
+main .futright .edit .editlogo{
+    width: 15%;
+    float: left;
+}
+main .futright .edit .editcont{
+    width: 83%;
+    float: right;
+    margin-top: 10px;
+}
+main .futright .edit .editcont h3{
+    font-size: 20px;
+    color: #519e6a;
+}
+main .futright .edit .editcont p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 150%;
+}
+main .jackpot{
+    width: 100%;
+    height: 100px;
+}
+main .jackpot .jackleft{
+    width: 50%;
+    border-right: solid 2px gray;
+    float: left;
+}
+main .jackpot .jackleft h2{
+    font-size: 30px;
+    margin-left: 400px;
+    color: #10194b;
+}
+main .jackpot .jackright{
+    width: 49%;
+    float: right;
+}
+main .jackpot .jackright p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 150%;
+    color: gray;
+    padding: 10px 0px 0px 20px;
+}
+main .pay{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: justify;
+}
+main .pay .opt1 {
+    padding-right: 100px;
+    h3{
+        color: #f56270;
+        padding-bottom: 10px;
+    }
+}
+main .pay .opt2{
+    h3{
+        color: #3a72fc;
+        padding-bottom: 10px;
+    }
+}
+main .pay .opt3 {
+    padding-left: 100px;
+    h3{
+        color:#519e6a;
+        padding-bottom: 10px;
+    }
+}
+main .design{
+    width: 100%;
+    height:550px;
+}
+main .design .desleft{
+    width: 50%;
+    height: 550px;
+    float: left;
+}
+main .design .desleft img{
+    height: 500px;
+    width: 500px;
+    padding: 50px 0px 0px 200px;
+}
+main .design .desright{
+    width: 50%;
+    height: 350px;
+    float: right;
+    padding: 200px 0px 0px 0px;
+}
+main .design .desright h2{
+    font-size: 40px;
+    color: #10194b;
+}
+main .design .desright p{
+    font-size: 18px;
+    color: gray;
+    padding-top: 20px;
+}
+main .design .desright .btn02{
+    background-color: blue;
+    padding: 12px 20px 12px 20px;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: 0;
+}
+main .choose{
+    margin-top: 200px;
+    text-align: center;
+}
+main .choose h2{
+    color: #10194b;
+    font-size: 40px;
+}
+main .choose p{
+    margin-top: 30px;
+    color: gray;
+    font-size: 15px;
+}
+main .ATC{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+main .ATC .apd{
+    padding-right: 100px;
+}
+main .ATC .cs{
+    padding-left: 100px;
+}
+main .ATC h3{
+    color: #10194b;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+main .ATC p{
+    color:#2b2b2b;
+    font-size: 15px;
+    line-height: 150%;
+}
+main .CUC{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+main .CUC .cust{
+    padding-right: 100px;
+}
+main .CUC .custsup{
+    padding-left: 100px;
+}
+main .CUC h3{
+    color: #10194b;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+main .CUC p{
+    color: gray;
+    font-size: 15px;
+    line-height: 150%;
+}
+
